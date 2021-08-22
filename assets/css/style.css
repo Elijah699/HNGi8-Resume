@@ -1,8 +1,30 @@
-body {
-  background-color: #E0DEDE;
+*{
   font-family: 'Roboto Mono', monospace;
 }
 
 h4 {
     color: green;
+}
+
+h4::after {
+    content: "";
+    width: 35px;
+    height: 2px;
+    display: block;
+    background: #222222;
+    margin: 5px 0px;
+}
+
+.resume__name {
+    background: #222222;
+    color: #fff;
+}
+
+.resume__name h3::after {
+    content: "";
+    width: 10%;
+    height: 3px;
+    display: block;
+    background:#fff;
+    margin: 3% 45%;
 }
